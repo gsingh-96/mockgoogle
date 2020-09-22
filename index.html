@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        ul#menu li{
+            display:inline;
+            margin: 5px;
+            padding-top:10px;
+            font-family: arial;
+            font-size:13px;
+        }
+        li a{
+            color:#222;
+            text-align:centre;
+            text-decoration:none;
+            font-size:12px;
+        }
+        .center{
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            -webkit-appearance: none;
+            padding: 150px 0px 20px 0px;
+        }
+        #outer{
+            text-align:center;
+        }
+        .searchbutton{
+            display:inline-block;
+            margin-left:auto;
+            margin-right:auto;
+            border-radius:10px;
+            padding:10px 10px 10px 10px;
+            background-color:#f2f2f2;
+            border:none;
+            font-family:arial;
+        
+        }
+        .searchbar{
+            display:inline-block;
+            margin-left:auto;
+            margin-right:auto;
+            width:500px;
+            border-radius: 30px;
+            border-color:lightgray;
+            overflow:hidden;
+            padding-left:60px;
+            height:40px;
+            background:url("https://media.gettyimages.com/vectors/search-magnifying-glass-icon-symbol-vector-id1234997276");
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+        }
+        .signin{
+            border-color:#4285f4;
+            border:1px solid #4285f4;
+            background-color: #4285f4;
+            color:white;
+            outline:none;
+            border-radius: 2px;
+            padding: 0px 12px;
+            line-height:28px;
+            font-family:arial;
+            font-weight:bold;
+            font-size:13px;
+            display:inline-block;
+            vertical-align:text-bottom;
+        }
+        .footer{
+            display:block;
+            position:absolute;
+            background-color:#f2f2f2;
+            text-align:center;
+            color:gray;
+            line-height:20px;
+            width:100%;
+            bottom:0;
+            margin:0;
+            padding:0px;
+            border-top:1px solid #e4e4e4;
+            font-family:arial;
+        }
+        .alignleft{
+            float:left;
+        }
+        .alignright{
+            float:right;
+        }
+    </style>
+    <head>
+        <title>Google</title>
+    </head>
+<body>
+<ul id="menu">
+    <li class="alignleft"><a href="about.asp">About</a></li>
+    <li class="alignleft"><a href="store.asp">Store</a></li>
+    <li class="alignright"><button class="signin" type="submit">Sign In</button></li>
+    <li class="alignright"><a href="images.asp">Images</a></li>
+    <li class="alignright"><a href="gmail.asp">Gmail</a></li>
+</ul>
+<br>
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="center" style="float:middle;">
+    <div id="outer">
+    <input class="searchbar" type="text" size=20>
+    <br>
+    <br>
+    <button class="searchbutton">Google Search</button>
+    <button class="searchbutton"> I'm Feeling Lucky </button>
+    </div>
+
+    <div>
+        <ul id="menu" class="footer">
+            <li class="alignleft"><a href="advertising.asp">Advertising</a></li>
+            <li class="alignleft"><a href="business.asp">Business</a></li>
+            <li class="alignleft"><a href="how-search-works.asp">How Search works</a></li>
+            <li class="alignright"><a href="settings.asp">Settings</a></li>
+            <li class="alignright"><a href="terms.asp">Terms</a></li>
+            <li class="alignright"><a href="privacy.asp">Privacy</a></li>
+        </ul>
+    </div>
+</body>
+</html>
